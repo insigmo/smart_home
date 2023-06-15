@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 
-
 class Config(BaseModel):
     exit: bool = False
     rate: int = 44100

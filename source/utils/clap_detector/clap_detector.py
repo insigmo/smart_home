@@ -1,4 +1,4 @@
-from smart_home.source.utils.clap_detector import Detector
+from smart_home.utils.clap_detector import Detector
 
 
 def call_smart_lamp():

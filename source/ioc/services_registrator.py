@@ -1,18 +1,9 @@
 import logging
 
-import etcd3
 import ioc
-
-from ceph_management_api.logging.logging_configurator import LoggingConfigurator
-from ceph_management_api.services.storage_service import StorageService
-from ceph_management_api.services.storage_service_abstract import StorageServiceAbstract
-from ceph_management_api.settings.ceph_management_environment_settings import CephManagementEnvironmentSettings
-from ceph_management_api.settings.ceph_management_settings import CephManagementApiSettings
-from fastapi_tools.storage.storage_client.etcd_storage_client import EtcdStorageClient
 
 
 class ServicesRegistrator:
-
     @classmethod
     def register_services(cls, environment_settings: CephManagementEnvironmentSettings):
         etcd_host, etcd_port = environment_settings.etcd_endpoints[0]

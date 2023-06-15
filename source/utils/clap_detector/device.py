@@ -4,7 +4,7 @@ import sys
 
 import pyaudio
 
-from smart_home.source.utils.clap_detector.config import Config
+from smart_home.utils.clap_detector.config import Config
 
 
 class Device:

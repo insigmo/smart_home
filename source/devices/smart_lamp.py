@@ -1,7 +1,7 @@
 from typing import Union
 
 from miio import DeviceException, Yeelight
-from smart_home.source.settings.devices import SmartLampSettings
+from smart_home.settings.devices import SmartLampSettings
 
 
 class SmartLamp:

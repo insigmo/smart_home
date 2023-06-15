@@ -4,8 +4,8 @@ from array import array
 from time import sleep
 from typing import Callable
 
-from smart_home.source.utils.clap_detector.device import Device
-from smart_home.source.utils.clap_detector.config import Config
+from smart_home.utils.clap_detector.device import Device
+from smart_home.utils.clap_detector.config import Config
 
 
 class Detector:
